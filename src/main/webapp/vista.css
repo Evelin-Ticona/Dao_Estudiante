@@ -1,0 +1,97 @@
+/* Estilos para el recuadro de detalles del estudiante */
+.student-details {
+    background-color: #ffdab9; /* Melocotón claro */
+    border: 2px solid #ff8c00; /* Borde naranja oscuro */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.student-details h3 {
+    margin: 10px 0; /* Espacio interno para los encabezados */
+    color: #ff8c00; /* Naranja oscuro */
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff8c00; /* Naranja oscuro */
+    text-align: center;
+}
+
+a {
+    color: #ff8c00; /* Naranja oscuro */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para botones */
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #ff8c00; /* Naranja oscuro */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff4500; /* Naranja rojizo */
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #ffdab9; /* Melocotón claro */
+    color: #333;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #ffe4b2; /* Amarillo melocotón */
+}
+
+/* Estilos para confirmado */
+.confirmado {
+    color: #32cd32; /* Verde lima */
+    font-weight: bold;
+}
